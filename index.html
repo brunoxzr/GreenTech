@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoNECT - Inovando com ciência por um futuro sustentável</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -36,7 +36,9 @@
                     <li><a href="#about" class="nav-link">Sobre</a></li>
                     <li><a href="#benefits" class="nav-link">Benefícios</a></li>
                     <li><a href="#technical" class="nav-link">Técnico</a></li>
-                    <li><a href="#summary" class="nav-link">Resumo</a></li>
+                    <li><a href="#summary" class="nav-link">Especificações</a></li>
+                    <li><a href="#target" class="nav-link">Mercado</a></li>
+                    <li><a href="#impact" class="nav-link">Impacto</a></li>
                 </ul>
             </nav>
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
@@ -135,6 +137,23 @@
                     </div>
                 </div>
             </div>
+            <div class="chemical-reaction" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="reaction-title">Reação de Carbonatação</h3>
+                <div class="reaction-formula">
+                    <span class="formula-part">CaO</span>
+                    <span class="formula-operator">+</span>
+                    <span class="formula-part">CO₂</span>
+                    <span class="formula-operator">→</span>
+                    <span class="formula-part highlight">CaCO₃</span>
+                </div>
+                <p class="reaction-description">
+                    Fixação permanente de CO₂ formando carbonato de cálcio estável
+                </p>
+                <div class="absorption-rate">
+                    <span class="rate-label">Taxa de absorção do CaO:</span>
+                    <span class="rate-value">78% a 90%</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -151,8 +170,9 @@
                 <div class="benefit-item" data-aos="zoom-in" data-aos-delay="100">
                     <div class="benefit-icon">🌿</div>
                     <div class="benefit-glow"></div>
-                    <h3>Captura de CO₂</h3>
+                    <h3>Captação de CO₂</h3>
                     <p>Até <span class="highlight-number">0,55 kg/kg</span> de tinta aplicada</p>
+                    <div class="benefit-detail">85% de compensação do CaO</div>
                     <div class="benefit-metric">
                         <div class="metric-circle">
                             <svg class="metric-progress" viewBox="0 0 100 100">
@@ -164,40 +184,11 @@
                     </div>
                 </div>
                 <div class="benefit-item" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="benefit-icon">🧼</div>
+                    <div class="benefit-icon">💨</div>
                     <div class="benefit-glow"></div>
-                    <h3>Livre de COVs</h3>
-                    <p>Sem compostos orgânicos voláteis e metais pesados</p>
-                    <div class="benefit-metric">
-                        <div class="metric-circle">
-                            <svg class="metric-progress" viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
-                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
-                            </svg>
-                            <span class="metric-text">100%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="benefit-icon">🔁</div>
-                    <div class="benefit-glow"></div>
-                    <h3>100% Reciclável</h3>
-                    <p>Economia circular completa</p>
-                    <div class="benefit-metric">
-                        <div class="metric-circle">
-                            <svg class="metric-progress" viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
-                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
-                            </svg>
-                            <span class="metric-text">100%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="benefit-icon">♻️</div>
-                    <div class="benefit-glow"></div>
-                    <h3>Baixa Emissão</h3>
-                    <p><span class="highlight-number">~0,2 kg CO₂/kg</span> emissão líquida</p>
+                    <h3>Emissão Líquida</h3>
+                    <p><span class="highlight-number">~0,20 kg CO₂/kg</span> (produção – absorção)</p>
+                    <div class="benefit-detail">Balanço carbono negativo</div>
                     <div class="benefit-metric">
                         <div class="metric-circle">
                             <svg class="metric-progress" viewBox="0 0 100 100">
@@ -205,6 +196,70 @@
                                 <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 20"></circle>
                             </svg>
                             <span class="metric-text">20%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-icon">🧼</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Zero COVs</h3>
+                    <p><span class="highlight-number">0%</span> compostos orgânicos voláteis</p>
+                    <div class="benefit-detail">Livre de substâncias tóxicas</div>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
+                            </svg>
+                            <span class="metric-text">0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="benefit-icon">🔄</div>
+                    <div class="benefit-glow"></div>
+                    <h3>100% Reciclável</h3>
+                    <p>Tinta <span class="highlight-number">100% mineral</span></p>
+                    <div class="benefit-detail">Economia circular completa</div>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
+                            </svg>
+                            <span class="metric-text">100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="benefit-icon">🔥</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Redução Térmica</h3>
+                    <p>Até <span class="highlight-number">8°C</span> menos na superfície</p>
+                    <div class="benefit-detail">Com vermiculita expandida</div>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 80"></circle>
+                            </svg>
+                            <span class="metric-text">8°C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="benefit-icon">🧊</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Isolamento Superior</h3>
+                    <p><span class="highlight-number">0,08 W/m·K</span> condutividade térmica</p>
+                    <div class="benefit-detail">Excelente isolamento</div>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 92"></circle>
+                            </svg>
+                            <span class="metric-text">92%</span>
                         </div>
                     </div>
                 </div>
@@ -310,20 +365,189 @@
         <div class="container">
             <div class="summary-card" data-aos="fade-up">
                 <div class="summary-glow"></div>
-                <h2>Resumo Técnico</h2>
+                <h2>Especificações Técnicas Completas</h2>
                 <p>Tinta mineral sustentável, com alto desempenho térmico, impacto ambiental reduzido e aplicação simples. Ideal para cidades inteligentes e arquitetura verde.</p>
-                <div class="summary-stats">
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="85">0</div>
-                        <div class="stat-label">% Refletância Solar</div>
+                
+                <div class="tech-specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-icon">💡</div>
+                        <div class="spec-label">SRI (Índice de Refletância Solar)</div>
+                        <div class="spec-value">95</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="20">0</div>
-                        <div class="stat-label">Anos de Vida Útil</div>
+                    <div class="spec-item">
+                        <div class="spec-icon">🧪</div>
+                        <div class="spec-label">pH da tinta</div>
+                        <div class="spec-value">~12</div>
+                        <div class="spec-note">Efeito antibacteriano e antimofo</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="100">0</div>
-                        <div class="stat-label">% Reciclável</div>
+                    <div class="spec-item">
+                        <div class="spec-icon">⏱️</div>
+                        <div class="spec-label">Durabilidade</div>
+                        <div class="spec-value">15-20 anos</div>
+                        <div class="spec-note">Sem manutenção</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">📦</div>
+                        <div class="spec-label">Cobertura</div>
+                        <div class="spec-value">12-15 m²/L</div>
+                        <div class="spec-note">Por demão</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">⏳</div>
+                        <div class="spec-label">Cura total</div>
+                        <div class="spec-value">24-48h</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">💰</div>
+                        <div class="spec-label">Custo estimado</div>
+                        <div class="spec-value">R$ 12-18/m²</div>
+                        <div class="spec-note">Produção local em escala</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Market Section -->
+    <section id="target" class="target-market">
+        <div class="target-bg">
+            <div class="target-pattern"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-highlight">Para Quem?</span>
+            </h2>
+            <p class="section-subtitle">Mercados e aplicações ideais para a tinta EcoNECT</p>
+            
+            <div class="target-grid">
+                <div class="target-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="target-icon">🏗️</div>
+                    <h3>Construção Civil Sustentável</h3>
+                    <p>Construtoras focadas em sustentabilidade e certificações ambientais</p>
+                </div>
+                <div class="target-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="target-icon">🏢</div>
+                    <h3>Telhados e Fachadas Urbanas</h3>
+                    <p>Edifícios comerciais e residenciais em centros urbanos</p>
+                </div>
+                <div class="target-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="target-icon">🏛️</div>
+                    <h3>Prefeituras e Escolas Públicas</h3>
+                    <p>Projetos governamentais com foco em eficiência energética</p>
+                </div>
+                <div class="target-item" data-aos="fade-right" data-aos-delay="400">
+                    <div class="target-icon">🏘️</div>
+                    <h3>Condomínios Residenciais Verdes</h3>
+                    <p>Empreendimentos com consciência ambiental</p>
+                </div>
+                <div class="target-item" data-aos="fade-right" data-aos-delay="500">
+                    <div class="target-icon">🌡️</div>
+                    <h3>Arquitetura Bioclimática</h3>
+                    <p>Projetos que priorizam conforto térmico natural</p>
+                </div>
+                <div class="target-item" data-aos="fade-right" data-aos-delay="600">
+                    <div class="target-icon">📊</div>
+                    <h3>Projetos ESG e Certificações</h3>
+                    <p>LEED, Procel, Well e outras certificações sustentáveis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact and Scalability Section -->
+    <section id="impact" class="impact-scalability">
+        <div class="impact-bg">
+            <div class="impact-particles"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-highlight">Impacto e Escalabilidade</span>
+            </h2>
+            <p class="section-subtitle">Métricas de produção e potencial de mercado</p>
+            
+            <div class="metrics-table" data-aos="fade-up">
+                <div class="table-header">
+                    <div class="header-cell">Métrica</div>
+                    <div class="header-cell">Valor Estimado</div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="100">
+                    <div class="metric-cell">
+                        <span class="metric-icon">⚙️</span>
+                        <span class="metric-name">Escala de produção piloto</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value">1 tonelada/mês</span>
+                    </div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="200">
+                    <div class="metric-cell">
+                        <span class="metric-icon">🌱</span>
+                        <span class="metric-name">Redução de emissões (por 1t)</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value highlight">–550 kg CO₂ fixado</span>
+                    </div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="300">
+                    <div class="metric-cell">
+                        <span class="metric-icon">🎯</span>
+                        <span class="metric-name">Potencial de aplicação</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value">Telhados, muros, calçadas</span>
+                    </div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="400">
+                    <div class="metric-cell">
+                        <span class="metric-icon">♻️</span>
+                        <span class="metric-name">% reciclável</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value">100%</span>
+                    </div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="500">
+                    <div class="metric-cell">
+                        <span class="metric-icon">💰</span>
+                        <span class="metric-name">Custo por litro</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value">R$ 8 a R$ 10</span>
+                        <span class="metric-note">(produção local)</span>
+                    </div>
+                </div>
+                <div class="table-row" data-aos="fade-left" data-aos-delay="600">
+                    <div class="metric-cell">
+                        <span class="metric-icon">📅</span>
+                        <span class="metric-name">Validade do produto</span>
+                    </div>
+                    <div class="value-cell">
+                        <span class="metric-value">12 meses</span>
+                        <span class="metric-note">(armazenado seco)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-highlights" data-aos="zoom-in" data-aos-delay="700">
+                <div class="highlight-card">
+                    <div class="highlight-icon">🌍</div>
+                    <div class="highlight-content">
+                        <h4>Impacto Ambiental</h4>
+                        <p>Cada tonelada produzida remove <strong>550kg de CO₂</strong> da atmosfera</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">📈</div>
+                    <div class="highlight-content">
+                        <h4>Escalabilidade</h4>
+                        <p>Potencial para <strong>aplicação massiva</strong> em infraestrutura urbana</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">💡</div>
+                    <div class="highlight-content">
+                        <h4>Inovação</h4>
+                        <p>Primeira tinta mineral com <strong>balanço carbono negativo</strong> do Brasil</p>
                     </div>
                 </div>
             </div>
@@ -376,6 +600,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="css/script.js"></script>
 </body>
 </html>
