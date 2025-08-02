@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoNECT - Inovando com ciência por um futuro sustentável</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">EcoNECT</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">Carregando inovação sustentável...</div>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1 class="logo-text">
+                    <span class="logo-eco">Eco</span><span class="logo-nect">NECT</span>
+                </h1>
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#benefits" class="nav-link">Benefícios</a></li>
+                    <li><a href="#technical" class="nav-link">Técnico</a></li>
+                    <li><a href="#summary" class="nav-link">Resumo</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-element" style="--delay: 0s; --duration: 8s;"></div>
+            <div class="floating-element" style="--delay: 2s; --duration: 12s;"></div>
+            <div class="floating-element" style="--delay: 4s; --duration: 10s;"></div>
+            <div class="floating-element" style="--delay: 6s; --duration: 14s;"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">
+                        <span class="title-word">Eco</span><span class="title-word glow">NECT</span>
+                    </span>
+                </h1>
+                <p class="hero-slogan">
+                    <span class="slogan-word">Inovando</span>
+                    <span class="slogan-word">com</span>
+                    <span class="slogan-word">ciência</span>
+                    <span class="slogan-word">por</span>
+                    <span class="slogan-word">um</span>
+                    <span class="slogan-word">futuro</span>
+                    <span class="slogan-word highlight">sustentável.</span>
+                </p>
+                <a href="#about" class="cta-button">
+                    <span class="cta-text">Conheça a Tinta EcoNECT</span>
+                    <div class="cta-glow"></div>
+                </a>
+                <div class="scroll-indicator">
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-bg">
+            <div class="bg-pattern"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-highlight">Sobre o Projeto</span>
+            </h2>
+            <p class="section-subtitle">Composição da tinta ecológica revolucionária</p>
+            
+            <div class="composition-grid">
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="composition-icon">🧪</div>
+                    <div class="composition-glow"></div>
+                    <h3>60–70% Óxido de Cálcio</h3>
+                    <p>Base mineral natural (CaO) para durabilidade e resistência</p>
+                    <div class="percentage-bar">
+                        <div class="percentage-fill" style="--percentage: 65%"></div>
+                    </div>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="composition-icon">⚡</div>
+                    <div class="composition-glow"></div>
+                    <h3>20–30% Sílica de Vermiculita</h3>
+                    <p>Isolamento térmico superior e propriedades refletivas</p>
+                    <div class="percentage-bar">
+                        <div class="percentage-fill" style="--percentage: 25%"></div>
+                    </div>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="composition-icon">🌱</div>
+                    <div class="composition-glow"></div>
+                    <h3>Aglutinante Natural</h3>
+                    <p>Ligante ecológico sem compostos químicos nocivos</p>
+                    <div class="percentage-bar">
+                        <div class="percentage-fill" style="--percentage: 8%"></div>
+                    </div>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="composition-icon">💧</div>
+                    <div class="composition-glow"></div>
+                    <h3>Água</h3>
+                    <p>Solvente natural, livre de substâncias tóxicas</p>
+                    <div class="percentage-bar">
+                        <div class="percentage-fill" style="--percentage: 2%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="benefits-bg">
+            <div class="benefits-pattern"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-highlight">Benefícios Ambientais</span>
+            </h2>
+            <div class="benefits-grid">
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="benefit-icon">🌿</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Captura de CO₂</h3>
+                    <p>Até <span class="highlight-number">0,55 kg/kg</span> de tinta aplicada</p>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 85"></circle>
+                            </svg>
+                            <span class="metric-text">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="benefit-icon">🧼</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Livre de COVs</h3>
+                    <p>Sem compostos orgânicos voláteis e metais pesados</p>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
+                            </svg>
+                            <span class="metric-text">100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-icon">🔁</div>
+                    <div class="benefit-glow"></div>
+                    <h3>100% Reciclável</h3>
+                    <p>Economia circular completa</p>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 100"></circle>
+                            </svg>
+                            <span class="metric-text">100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="benefit-icon">♻️</div>
+                    <div class="benefit-glow"></div>
+                    <h3>Baixa Emissão</h3>
+                    <p><span class="highlight-number">~0,2 kg CO₂/kg</span> emissão líquida</p>
+                    <div class="benefit-metric">
+                        <div class="metric-circle">
+                            <svg class="metric-progress" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="metric-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="metric-fill" style="--percentage: 20"></circle>
+                            </svg>
+                            <span class="metric-text">20%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Section -->
+    <section id="technical" class="technical">
+        <div class="technical-bg">
+            <div class="tech-grid-pattern"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-highlight">Diferenciais Técnicos</span>
+            </h2>
+            <div class="technical-grid">
+                <div class="technical-item" data-aos="flip-left" data-aos-delay="100">
+                    <div class="tech-card-inner">
+                        <div class="tech-front">
+                            <div class="technical-icon">🔥</div>
+                            <h3>Isolamento Térmico Natural</h3>
+                            <p>Reduz significativamente a transferência de calor</p>
+                        </div>
+                        <div class="tech-back">
+                            <div class="tech-details">
+                                <h4>Especificações Técnicas</h4>
+                                <ul>
+                                    <li>Condutividade térmica: 0.08 W/mK</li>
+                                    <li>Resistência térmica: R-12</li>
+                                    <li>Redução de temperatura: até 8°C</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-item" data-aos="flip-left" data-aos-delay="200">
+                    <div class="tech-card-inner">
+                        <div class="tech-front">
+                            <div class="technical-icon">☀️</div>
+                            <h3>Alta Refletância Solar</h3>
+                            <p>Ideal para fachadas e telhados frios</p>
+                        </div>
+                        <div class="tech-back">
+                            <div class="tech-details">
+                                <h4>Especificações Técnicas</h4>
+                                <ul>
+                                    <li>Refletância solar: 85%</li>
+                                    <li>Emissividade térmica: 0.9</li>
+                                    <li>SRI (Solar Reflectance Index): 95</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-item" data-aos="flip-left" data-aos-delay="300">
+                    <div class="tech-card-inner">
+                        <div class="tech-front">
+                            <div class="technical-icon">🧹</div>
+                            <h3>Baixa Manutenção</h3>
+                            <p>Longa vida útil com mínima necessidade de reparo</p>
+                        </div>
+                        <div class="tech-back">
+                            <div class="tech-details">
+                                <h4>Especificações Técnicas</h4>
+                                <ul>
+                                    <li>Vida útil: 15-20 anos</li>
+                                    <li>Resistência UV: Excelente</li>
+                                    <li>Autolimpeza: Propriedades hidrofílicas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-item" data-aos="flip-left" data-aos-delay="400">
+                    <div class="tech-card-inner">
+                        <div class="tech-front">
+                            <div class="technical-icon">🖌</div>
+                            <h3>Aplicação Simples</h3>
+                            <p>Compatível com rolo ou pincel convencional</p>
+                        </div>
+                        <div class="tech-back">
+                            <div class="tech-details">
+                                <h4>Especificações Técnicas</h4>
+                                <ul>
+                                    <li>Viscosidade: 2000-3000 cP</li>
+                                    <li>Cobertura: 12-15 m²/L</li>
+                                    <li>Tempo de secagem: 2-4 horas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary" class="summary">
+        <div class="summary-bg">
+            <div class="summary-particles"></div>
+        </div>
+        <div class="container">
+            <div class="summary-card" data-aos="fade-up">
+                <div class="summary-glow"></div>
+                <h2>Resumo Técnico</h2>
+                <p>Tinta mineral sustentável, com alto desempenho térmico, impacto ambiental reduzido e aplicação simples. Ideal para cidades inteligentes e arquitetura verde.</p>
+                <div class="summary-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="85">0</div>
+                        <div class="stat-label">% Refletância Solar</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="20">0</div>
+                        <div class="stat-label">Anos de Vida Útil</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">% Reciclável</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-logo">
+                        <span class="logo-eco">Eco</span><span class="logo-nect">NECT</span>
+                    </h3>
+                    <p class="footer-tagline">Ciência aplicada à sustentabilidade urbana.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <span class="social-icon">📷</span>
+                            <span class="social-glow"></span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                            <span class="social-glow"></span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <span class="social-icon">📧</span>
+                            <span class="social-glow"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="qr-container">
+                        <div class="qr-placeholder">
+                            <p>Escaneie para mais informações</p>
+                            <div class="qr-grid">
+                                <div></div><div></div><div></div><div></div><div></div>
+                                <div></div><div class="filled"></div><div></div><div class="filled"></div><div></div>
+                                <div></div><div></div><div class="filled"></div><div></div><div></div>
+                                <div></div><div class="filled"></div><div></div><div class="filled"></div><div></div>
+                                <div></div><div></div><div></div><div></div><div></div>
+                            </div>
+                        </div>
+                        <div class="qr-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
